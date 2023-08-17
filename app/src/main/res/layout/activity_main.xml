@@ -44,4 +44,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <CheckBox
+        android:id="@+id/trueTenCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="True 10-sided Die"/>
+
+    <Button
+        android:id="@+id/rollTrueTenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll True 10-sided Die"/>
+
+    <Switch
+        android:id="@+id/tensSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll in 10s"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
 </LinearLayout>
