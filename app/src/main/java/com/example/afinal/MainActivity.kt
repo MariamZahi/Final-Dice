@@ -3,6 +3,7 @@ package com.example.afinal
 import android.os.Bundle
 import android.view.View
 import android.widget.*
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -34,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             rollDice()
         }
     }
-
+    //for sides and rolling options
     private fun rollDice() {
         val selectedDice = diceSpinner.selectedItem.toString()
         val numSides = selectedDice.split("-")[0].toInt()
